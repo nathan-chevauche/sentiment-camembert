@@ -1,0 +1,19 @@
+# Model checkpoints
+best_model/
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Hugging Face cache
+.cache/
+
+# Dataset cache
+data/
+
+# VS Code
+.vscode/
