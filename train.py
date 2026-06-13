@@ -14,7 +14,7 @@ def train():
     ).to(device)
 
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-    train_loader, val_loader, _ = get_dataloaders(batch_size=32)
+    train_loader, val_loader, _ = get_dataloaders(batch_size=16)
 
     optimizer = AdamW(model.parameters(), lr=2e-5)
     scheduler = torch.optim.lr_scheduler.LinearLR(

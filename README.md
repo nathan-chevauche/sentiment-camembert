@@ -5,12 +5,20 @@ built by fine-tuning CamemBERT on the Allociné dataset.
 
 ## Results
 
-| Metric   | Score |
-|----------|-------|
-| Accuracy | --    |
-| F1-score | --    |
+| Epoch | train_loss | val_loss | val_accuracy |
+|-------|-----------|---------|-------------|
+| 1     | 0.1050    | 0.0792  | 97.38%      |
+| 2     | 0.0566    | 0.0775  | 97.50%      |
+| 3     | 0.0293    | 0.0888  | 97.50%      |
 
-*Evaluated on the Allociné test set (20 000 reviews).*
+Best checkpoint: epoch 2 (`val_loss=0.0775`, `val_accuracy=97.50%`).
+
+| Metric   | Score  |
+|----------|--------|
+| Accuracy | 97.50% |
+| F1-score | --     |
+
+*Accuracy evaluated on the Allociné validation set (20 000 reviews). F1-score pending evaluation on test set.*
 
 ## Dataset
 
