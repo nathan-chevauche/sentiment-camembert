@@ -15,10 +15,10 @@ Best checkpoint: epoch 2 (`val_loss=0.0775`, `val_accuracy=97.50%`).
 
 | Metric   | Score  |
 |----------|--------|
-| Accuracy | 97.50% |
-| F1-score | --     |
+| Accuracy | 97.58% |
+| F1-score | 0.9758 |
 
-*Accuracy evaluated on the Allociné validation set (20 000 reviews). F1-score pending evaluation on test set.*
+*Evaluated on the Allociné test set (20 000 reviews).*
 
 ## Dataset
 
