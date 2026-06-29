@@ -1,0 +1,17 @@
+.venv/
+venv/
+
+__pycache__/
+*.pyc
+
+mlruns/
+
+.git/
+.gitignore
+
+.vscode/
+.idea/
+.DS_Store
+
+*.ipynb
+data/
